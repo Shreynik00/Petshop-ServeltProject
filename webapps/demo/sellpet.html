@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(134, 134, 134);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background: white;
+            border: 2px solid #00bcd4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 188, 212, 0.3);
+            padding: 20px 40px;
+            text-align: center;
+            margin: 20px 0;
+            width: 300px;
+        }
+
+        h2 {
+            color: #00bcd4;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #00bcd4;
+            border-radius: 5px;
+            background: white;
+            color: #333;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #00bcd4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00ffcc;
+            transform: scale(1.05);
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+     
+        <form action="sell" method="post">
+            <h2>Sell Pets</h2>
+            <input type="text" name="username" placeholder="Pet name" required>
+            <h2>Select Pet Gender</h2>
+            <label>
+                <input type="radio" name="petGender" value="Male" required> Male
+            </label>
+            <label>
+                <input type="radio" name="petGender" value="Female" required> Female
+            </label>
+            <h2> Quantity</h2>
+            <input type="number" name="petQuantity" placeholder="New Quantity" min="1" required>
+
+            <h2> Cost</h2>
+            <input type="number" name="petCost" placeholder="Seeling Cost " min="1" required>
+
+            <input type="submit" value="Update Pet">
+        </form>
+    </div>
+</body>
+</html>

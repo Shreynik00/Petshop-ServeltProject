@@ -1,0 +1,104 @@
+<web-app>
+
+   <servlet>
+	<servlet-name>servhello</servlet-name>
+	<servlet-class>servhello</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>servhello</servlet-name>
+	<url-pattern>/welcome</url-pattern>
+   </servlet-mapping>
+
+      <servlet>
+	<servlet-name>report</servlet-name>
+	<servlet-class>report</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>report</servlet-name>
+	<url-pattern>/reportss</url-pattern>
+   </servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>sell</servlet-name>
+	<servlet-class>sell</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>sell</servlet-name>
+	<url-pattern>/sell</url-pattern>
+   </servlet-mapping>
+
+<servlet>
+	<servlet-name>salesreport</servlet-name>
+	<servlet-class>salesreport</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>salesreport</servlet-name>
+	<url-pattern>/salesreport</url-pattern>
+   </servlet-mapping>
+
+
+   
+   <servlet>
+	<servlet-name>deletepet</servlet-name>
+	<servlet-class>deletepet</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>deletepet</servlet-name>
+	<url-pattern>/delete</url-pattern>
+   </servlet-mapping>   
+
+   <servlet>
+	<servlet-name>viewpet</servlet-name>
+	<servlet-class>viewpet</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>viewpet</servlet-name>
+	<url-pattern>/viewpets</url-pattern>
+   </servlet-mapping>
+
+ 
+
+ <servlet>
+	<servlet-name>addpet</servlet-name>
+	<servlet-class>addpet</servlet-class>
+   </servlet>
+
+
+
+   <servlet-mapping>
+	<servlet-name>addpet</servlet-name>
+	<url-pattern>/addpets</url-pattern>
+   </servlet-mapping>
+     <servlet>
+
+	<servlet-name>select</servlet-name>
+	<servlet-class>select</servlet-class>
+   </servlet>
+    
+   <servlet-mapping>
+	<servlet-name>select</servlet-name>
+	<url-pattern>/selection</url-pattern>
+   </servlet-mapping>
+
+
+</web-app>

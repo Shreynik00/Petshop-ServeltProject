@@ -1,0 +1,74 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(134, 134, 134); /* White background */
+            color: #333; /* Dark gray text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background: white;
+            border: 2px solid #00bcd4; /* Cyan border */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 188, 212, 0.3); /* Subtle cyan shadow */
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #00bcd4; /* Cyan color for headings */
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #00bcd4;
+            border-radius: 5px;
+            background: white;
+            color: #333;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #00bcd4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00ffcc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <form action="delete" method="get">
+        <h2>Enter Pet Type to delete</h2>
+        <input type="text" name="petType" placeholder="Pet Type" required>
+        
+        <h2>Select Pet Gender</h2>
+        <label>
+            <input type="radio" name="petGender" value="Male" required> Male
+        </label>
+        <label>
+            <input type="radio" name="petGender" value="Female" required> Female
+        </label>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

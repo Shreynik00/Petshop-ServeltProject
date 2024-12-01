@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:12:29 +0530] "GET /demo/selection?action=sellpet HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:12:34 +0530] "GET /demo/selection?action=viewpet HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:14:37 +0530] "GET / HTTP/1.1" 200 11428
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:15:00 +0530] "GET /demo/selection?action=sellpet HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:15:00 +0530] "GET /demo/selection?action=sellpet HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:19:16 +0530] "GET /demo/selection?action=sellsreport HTTP/1.1" 200 539
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:19:16 +0530] "GET /demo/selection?action=sellsreport HTTP/1.1" 200 539
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:19:16 +0530] "GET /demo/selection?action=sellsreport HTTP/1.1" 200 539
+0:0:0:0:0:0:0:1 - - [02/Dec/2024:00:19:34 +0530] "GET /demo/selection?action=viewpet HTTP/1.1" 200 392
